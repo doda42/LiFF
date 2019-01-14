@@ -7,17 +7,22 @@ This is an implementation of the light field feature detector and descriptor fro
 
 The functionality closely mirrors the SIFT feature detector and descriptor, but exploits information in the light field to deliver more robust and informative features. This works by searching for features with well-defined scale, as in SIFT, but also with well-defined depth, which manifest as slope in the light field. This rejects more spurious features, detects partially occluded features, and builds descriptors with greater immunity to partial occlusions, noise, and higher-order light transport effects. It also delivers a per-feature depth (slope) estimate.
 
-Usage closely mirrors the VLFeat Library, and the code builds directly on the VL_SIFT implementation in VLFeat v0.9.21. Much of the extensive documentation and tutorial material for SIFT features at http://www.vlfeat.org/ also applies to LiFF.
+Presently the toolbox is written for and comes with precompiled binaries for use from within MATLAB. If there's a demand this can be extended for use from C and Python. Usage closely mirrors the VLFeat Library, and much of the extensive documentation and tutorial material for SIFT features at http://www.vlfeat.org/ also applies to LiFF.
 
 
----General usage---
-LiFF_PathSetup.m - add the LiFF light field feature toolbox to MATLAB's path -- it may be convenient to add this to your startup.m file
+---Getting started---
+Clone the repo from https://github.com/doda42/LiFF
+Download the sample light fields https://dgd.vision/Tools/LiFF and xtract into the SampleScenes folder
+cd into the LiFF folder
+run LiFF_DemoSimple
 
-LiFF_ExtractFeatures.m: the main function for detecting and describing features
+When calling from your own code it's convenient to add LiFF to the MATLAB path; you do this manually, or by running the convenience function LiFF_PathSetup.
 
 
----Demos---
-Download the sample light fields https://dgd.vision/Tools/LiFF and extract into the SampleScenes folder, then run the demos:
+---Key files---
+LiFF_PathSetup.m: add the LiFF light field feature toolbox to MATLAB's path -- it may be convenient to add this to your startup.m file
+
+LiFF_ExtractFeatures.m: the main function for detecting and describing features, similar in usage to VL_SIFT
 
 LiFF_DemoSimple.m: simple usage example
 
