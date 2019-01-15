@@ -10,8 +10,9 @@
 %
 % A full description of the LiFF feature detector and descriptor are available here:
 %
-% [1] D.G. Dansereau, B. Girod, and G. Wetzstein, "LiFF: Light Field Features in Scale and Depth",
-% ArXiV preprint (todo)
+%   [1] D. G. Dansereau, B. Girod, and G. Wetzstein, “LiFF: Light field features in scale and depth,” 
+%   arXiv preprint arXiv:1901.03916, Jan. 2019. 
+%   Paper and supplemental information are at https://arxiv.org/abs/1901.03916.
 % 
 % Inputs:
 %   LF : A gray-scale 4D light field as single-precision floats. Index order is [t,s,v,u] with s,t

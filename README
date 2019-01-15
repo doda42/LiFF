@@ -3,7 +3,7 @@ Copyright (C) 2019, Donald G. Dansereau
 
 This is an implementation of the light field feature detector and descriptor from the paper:
 
-[1] D.G. Dansereau, B. Girod, and G. Wetzstein, "LiFF: Light Field Features in Scale and Depth", ArXiV preprint (todo)
+[1] D. G. Dansereau, B. Girod, and G. Wetzstein, “LiFF: Light field features in scale and depth,” arXiv preprint arXiv:1901.03916, Jan. 2019. Paper and supplemental information are at https://arxiv.org/abs/1901.03916.
 
 The functionality closely mirrors the SIFT feature detector and descriptor, but exploits information in the light field to deliver more robust and informative features. This works by searching for features with well-defined scale, as in SIFT, but also with well-defined depth, which manifest as slope in the light field. This rejects more spurious features, detects partially occluded features, and builds descriptors with greater immunity to partial occlusions, noise, and higher-order light transport effects. It also delivers a per-feature depth (slope) estimate.
 
@@ -57,5 +57,14 @@ See COPYING.txt
 ---Citing---
 The appropriate citation for LiFF light field features is:
 
-@inproceedings{todo}
+@ARTICLE{dansereau2019liff_arxiv,
+author = {Donald G. Dansereau and Bernd Girod and Gordon Wetzstein},
+title = {{LiFF}: Light Field Features in Scale and Depth},
+journal = {arXiv preprint arXiv:1901.03916},
+year = {2019},
+month = jan,
+URL = {https://arxiv.org/abs/1901.03916}
+}
+
+
 
