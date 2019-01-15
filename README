@@ -11,12 +11,15 @@ Presently the toolbox is written for and comes with precompiled binaries for use
 
 
 ---Getting started---
-Clone the repo from https://github.com/doda42/LiFF
-Download the sample light fields https://dgd.vision/Tools/LiFF and xtract into the SampleScenes folder
+Clone the repo from https://github.com/doda42/LiFF*
+Download the sample light fields https://dgd.vision/Tools/LiFF and extract into the SampleScenes folder
 cd into the LiFF folder
 run LiFF_DemoSimple
 
-When calling from your own code it's convenient to add LiFF to the MATLAB path; you do this manually, or by running the convenience function LiFF_PathSetup.
+*On Linux systems you need to tell ldconfig where to find libvl.so. One way to do this is to add the following to .bashrc, changing <path to LiFF> appropriately:
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/<path to LiFF>/lib/vlfeat-0.9.21/toolbox/mex/mexa64/
+
+When calling from your own code it's convenient to add LiFF to the MATLAB path; you can do this manually, or by running the convenience function LiFF_PathSetup.
 
 
 ---Key files---
