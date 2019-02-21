@@ -2,9 +2,9 @@
 %
 % Usage: 
 %
-%     LF = LFHistEqualize( LF )
-%     LF = LFHistEqualize( LF, [], LowerBound, UpperBound )
-%     LF = LFHistEqualize(LF, Cutoff_percent, [], [], Precision)
+%     LF = LiFF_HistEqualize( LF )
+%     LF = LiFF_HistEqualize( LF, [], LowerBound, UpperBound )
+%     LF = LiFF_HistEqualize(LF, Cutoff_percent, [], [], Precision)
 % 
 % This function performs contrast adjustment on images based on a histogram of intensity. Colour
 % images are handled by building a histogram of the `value' channel in the HSV colour space.

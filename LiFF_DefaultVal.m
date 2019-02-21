@@ -2,11 +2,10 @@
 % 
 % Usage: 
 % 
-%   Var = LFDefaultVal( Var, DefaultVal )
+%   Var = LiFF_DefaultVal( Var, DefaultVal )
 % 
 % 
-% This provides an elegant way to establish default parameter values. See LFDefaultField for setting
-% up structs with default field values.
+% This provides an elegant way to establish default parameter values. 
 %
 % This function is adapted from LFDefaultVal from the Light Field Toolbox.
 %
@@ -25,8 +24,8 @@
 % 
 %   clearvars
 %   ExistingVar = 42;
-%   ExistingVar = LFDefaultVal( 'ExistingVar', 3 )
-%   OtherVar = LFDefaultVal( 'OtherVar', 3 )
+%   ExistingVar = LiFF_DefaultVal( 'ExistingVar', 3 )
+%   OtherVar = LiFF_DefaultVal( 'OtherVar', 3 )
 % 
 %   Results in :
 %       ExistingVar =
