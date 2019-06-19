@@ -18,6 +18,7 @@ InFile = 'SampleScenes/Plant.eslf.jpg';
 %---Load---
 fprintf('Loading light field and converting to grayscale...\n');
 LF = LiFF_ReadESLF(InFile);
+LF = LF(2:end-2,2:end-2,:,:,:); % remove pixels on lenslet borders, 2 on the bot/right, 1 on top/left
 LF = single(LF);        % convert to float
 LF = LF ./ max(LF(:));  % normalize
 LF = LiFF_RGB2Gray(LF); % convert to grayscale
