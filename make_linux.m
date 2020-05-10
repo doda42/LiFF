@@ -1,7 +1,7 @@
-% make_win64 - Build mex binaries for linux 64
+% make_linux - Build mex binaries for linux 64
 % 
 % Usage: 
-%   make_win64
+%   make_linux
 % 
 % See also make_win64.m
 
