@@ -6,8 +6,8 @@ See LiFF_ExtractFeatures.m
 
 A full description of the LiFF feature detector and descriptor are available here:
 [1] D. G. Dansereau, B. Girod, and G. Wetzstein, “LiFF: Light field features in scale and depth,” 
-arXiv preprint arXiv:1901.03916, Jan. 2019. 
-Paper and supplemental information are at https://arxiv.org/abs/1901.03916.
+in Computer Vision and Pattern Recognition (CVPR), 2019. 
+Paper and supplemental information are at https://roboticimaging.org/Tools/LiFF/
 
 Part of LiFF Light Field Feature Toolbox v0.0.1
 Copyright (c) 2019 Donald G. Dansereau
