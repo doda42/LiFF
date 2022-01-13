@@ -1,0 +1,14 @@
+
+Q: How can I do feature matching of LiFF features?
+
+A: The descriptor formats are identical to that used in the vl_feat implementation of SIFT, so you can use the tools that come with vl_feat to match features. vl_feat is available here: https://www.vlfeat.org/
+
+When you extract features using LiFF, e.g. using this line in the demo LiFF_DemoSimple.m:
+[f,d] = LiFF_ExtractFeatures( LF );
+you get both a list of features, f, and their descriptors, d. See "help LiFF_ExtractFeatures" for more details on these.
+
+With f and d you can perform feature matching just like a standard SIFT feature, e.g. using vl_ubcmatch from vl_feat.
+
+For more on using vl_feat in matlab, check out the guide here: https://www.vlfeat.org/install-matlab.html and for a feature matching example see the demo vl_demo_sift_match.m.
+
+
