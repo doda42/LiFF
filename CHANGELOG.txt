@@ -1,9 +1,9 @@
-LiFF v0.0.1 (10 Jan 2019)
------------------------
+LiFF v0.0.1 (2019 Jan 10)
+-------------------------
 Initial release
 
-LiFF v0.0.2 (in progress)
------------------------
+LiFF v0.0.2 (2022 Jan 21)
+-------------------------
 LiFF_PathSetup calls vl_setup to initialise the bundled version of vl_feat; an optional argument allows you to skip this when using your own vl_sift
 
 LiFF_DemoMatching.m: new demo shows how to match features using vl_ubcmatch
