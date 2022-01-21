@@ -15,7 +15,7 @@
 % 
 % See also:  LiFF_ConvertLiFFToColmap, LiFF_WriteFeatsToColmapFiles
 
-% Part of LiFF Light Field Feature Toolbox v0.0.1
+% Part of LiFF Light Field Feature Toolbox
 % Copyright (c) 2019 Donald G. Dansereau
 
 % todo[optimization]: vectorizing this code should make it faster

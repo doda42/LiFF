@@ -22,7 +22,7 @@
 %
 % The Software is provided "as is", without warranty of any kind.
 
-% Minor modifications for inclusion in LiFF Toolbox v0.0.1
+% Minor modifications for inclusion in LiFF Toolbox
 % Copyright (c) 2019 Donald G. Dansereau
 
 function circle(c, r, nsides, col, varargin)

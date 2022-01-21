@@ -6,7 +6,7 @@
 %   SkipVLSetup (optional) : set this to true to skip calling vl_setup from the vl_sift that ships
 %                            with LiFF. Useful when using your own version of vl_sift.
 
-% Part of LiFF Light Field Feature Toolbox v0.0.1
+% Part of LiFF Light Field Feature Toolbox
 % Copyright (c) 2019 Donald G. Dansereau
 
 function LiFF_PathSetup( SkipVLSetup )

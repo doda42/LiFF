@@ -21,7 +21,7 @@
 % 
 % See also:  LiFF_ConvertVlToColmap
 
-% Part of LiFF Light Field Feature Toolbox v0.0.1
+% Part of LiFF Light Field Feature Toolbox
 % Copyright (c) 2019 Donald G. Dansereau
 
 function d = LiFF_ConvertL2ToL1RootNorm( d )

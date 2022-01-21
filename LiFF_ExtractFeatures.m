@@ -95,5 +95,5 @@
 % 
 % See also:  LiFF_DemoSimple, LiFF_DemoFocalStack, LiFF_DemoColmapOut, LiFF_FocalStack
 
-% Part of LiFF Light Field Feature Toolbox v0.0.1
+% Part of LiFF Light Field Feature Toolbox
 % Copyright (c) 2019 Donald G. Dansereau

@@ -48,7 +48,7 @@
 % See LiFF_DemoColmapOut.m for example usage.
 
 % Adapted from Light Field Toolbox 0.4
-% Part of LiFF Light Field Feature Toolbox v0.0.1
+% Part of LiFF Light Field Feature Toolbox
 % Copyright (c) 2019 Donald G. Dansereau
 
 function [LF, LowerBound, UpperBound] = ...

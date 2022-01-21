@@ -9,7 +9,7 @@ A full description of the LiFF feature detector and descriptor are available her
 in Computer Vision and Pattern Recognition (CVPR), 2019. 
 Paper and supplemental information are at https://roboticimaging.org/Tools/LiFF/
 
-Part of LiFF Light Field Feature Toolbox v0.0.1
+Part of LiFF Light Field Feature Toolbox
 Copyright (c) 2019 Donald G. Dansereau
 
 Based on code from the VLFeat library 

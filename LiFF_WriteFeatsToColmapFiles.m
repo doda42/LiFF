@@ -14,7 +14,7 @@
 % 
 % See also LiFF_ReadFeatsFromColmapFiles.m, LiFF_ConvertLiFFToColmap.m, LiFF_ConvertVlToColmap.m
 
-% Part of LiFF Light Field Feature Toolbox v0.0.1
+% Part of LiFF Light Field Feature Toolbox
 % Copyright (c) 2019 Donald G. Dansereau
 
 function LiFF_WriteFeatsToColmapFiles( OutFullPath, f,d )

@@ -5,7 +5,7 @@
 % 
 % See also make_win64.m
 
-% Part of LiFF Light Field Feature Toolbox v0.0.1
+% Part of LiFF Light Field Feature Toolbox
 % Copyright (c) 2019 Donald G. Dansereau
 
 mex -I'./lib/vlfeat-0.9.21' COPTIMFLAGS='-O3 -DNDEBUG' LiFF_FocalStack.c FocalStack.c

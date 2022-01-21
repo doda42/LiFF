@@ -1,4 +1,4 @@
-LiFF Light Field Feature Toolbox v0.0.1
+LiFF Light Field Feature Toolbox
 Copyright (C) 2019, Donald G. Dansereau
 
 Based on code from the VLFeat library v0.9.21
